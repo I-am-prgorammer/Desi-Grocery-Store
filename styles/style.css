@@ -179,3 +179,40 @@ header{
     font-family: "Open Sans", sans-serif;
    
 }
+
+.dropdown-navitem {
+    position: relative;
+}
+
+.menu-pages-dropdown-button {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 14px;
+
+}
+
+.dropdown-menu {
+
+    background: #fff;
+    display : none;
+    position: absolute;
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    padding: 12px 0px;
+    color: #474646;
+    list-style: none;
+    width: 180px;
+    top: 36px;
+
+    li {
+        padding : 6px 25px;
+        transition: all 0.5s ease-in-out 0.1s;
+    }
+    li:hover {
+        background:#ededed;
+       
+    }
+
+}
+
